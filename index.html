@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quiz Santé Sexuelle</title>
+   <!-- FontAwesome-cdn include -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <!-- Google fonts include -->
+   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;800&family=Russo+One&display=swap" rel="stylesheet">
+   <!-- Bootstrap-css include -->
+   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+   <!-- Animate-css include -->
+   <link rel="stylesheet" href="./assets/css/animate.min.css">
+   <!-- Main-StyleSheet include -->
+   <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+   <div class="wrapper position-relative overflow-hidden py-5">
+      <!-- Top content -->
+      <div class="container">
+         <div class="row">
+            <!-- <div class="col-md-6">
+               <div class="logo_area mx-2">
+                  <img src="./assets/images/logo/logo.png" alt="image-not-found">
+               </div>
+            </div> -->
+            <!-- <div class="col-md-6 d-none d-md-block">
+             
+            </div> -->
+         </div>
+      </div>
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-md-6">
+               <form class="multisteps_form bg-white position-relative overflow-hidden" id="wizard" method="POST" action="cards.html">
+                  <!------------------------- Step-1 ----------------------------->
+                  <div class="multisteps_form_panel step">
+                     <div class="question_number ps-5 pt-3">
+                        <span>01</span>
+                     </div>
+                     <div class="question_title">
+                        <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Comment le VIH (virus de l'immunodéficience humaine) se transmet ?
+                        </h1>
+                     </div>
+                     <div class="row form_items">
+                        <div class="col-md-6">
+                           <div class="form_items_content bg-white text-center position-relative active step_1 animate__animated animate__fadeInRight animate_50ms">
+                              <label for="opt_1" class="d-block">
+                                 <span class="form_items_icon">
+                                    <img src="assets/images/item-img/sexe.png" alt="image-not-found">
+                                 </span>
+                                 <span class="form_items_text pt-2 d-block">
+                                    Par voie sexuelle
+                                 </span>
+                                 <span class="service-check-option">
+                                    <span><input id="opt_1" type="radio" name="stp_1_select_option" value="Spirit"></span>
+                                 </span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form_items_content bg-white text-center position-relative step_1 animate__animated animate__fadeInRight animate_100ms">
+                              <label for="opt_2" class="d-block">
+                                 <span class="form_items_icon">
+                                    <img src="assets/images/item-img/allaitement-maternel.png" alt="image-not-found">
+                                 </span>
+                                 <span class="form_items_text pt-2 d-block">
+                                    Par l'allaitement 
+                                 </span>
+                                 <span class="service-check-option">
+                                    <span><input id="opt_2" type="radio" name="stp_1_select_option" value="Union"></span>
+                                 </span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form_items_content bg-white text-center position-relative step_1 animate__animated animate__fadeInRight animate_150ms">
+                              <label for="opt_3" class="d-block">
+                                 <span class="form_items_icon">
+                                    <img src="assets/images/item-img/du-sang.png" alt="image-not-found">
+                                 </span>
+                                 <span class="form_items_text pt-2 d-block">
+                                    Par le sang
+                                 </span>
+                                 <span class="service-check-option">
+                                    <span><input id="opt_3" type="radio" name="stp_1_select_option" value="Posture"></span>
+                                 </span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form_items_content bg-white text-center position-relative step_1 animate__animated animate__fadeInRight animate_200ms">
+                              <label for="opt_4" class="d-block">
+                                 <span class="form_items_icon">
+                                    <img src="assets/images/item-img/caresse.png" alt="image-not-found">
+                                 </span>
+                                 <span class="form_items_text pt-2 d-block">
+                                    Lors de caresses sexuelles
+                                 </span>
+                                 <span class="service-check-option">
+                                    <span><input id="opt_4" type="radio" name="stp_1_select_option" value="Proper Exercise"></span>
+                                 </span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Progress bar -->
+                     <div class="row justify-content-center">
+                        <div class="col-10">
+                           <div class="step_progress">
+                              <span>1 sur 15 Questions</span>
+                              <div class="step_progress_bar">
+                                 <div class="progress rounded-pill">
+                                    <div class="progress-bar" style="width:7%"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!------------------------- Step-2 ----------------------------->
+                  <div class="multisteps_form_panel step">
+                     <div class="question_number ps-5 pt-3">
+                        <span>02</span>
+                     </div>
+                     <div class="question_title">
+                        <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Comment le VIH se soigne ?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_2 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_5" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/traitement-a-base-de-plantes.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La trithérapie
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_5" type="radio" name="stp_2_select_option" value="Dandasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_2 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_6" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/creme.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Crèmes à appliquer
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_6" type="radio" name="stp_2_select_option" value="Tadasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_2 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_7" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/laser.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Traitement au laser
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_7" type="radio" name="stp_2_select_option" value="Utkatasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_2 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_8" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/antibiotique.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Antibiotiques
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_8" type="radio" name="stp_2_select_option" value="Uttanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Progress bar -->
+                        <div class="row justify-content-center">
+                           <div class="col-10">
+                              <div class="step_progress">
+                                 <span>2 sur 15 Questions</span>
+                                 <div class="step_progress_bar">
+                                    <div class="progress rounded-pill">
+                                       <div class="progress-bar" style="width:14%"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-3 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>03</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Quelle sont les conséquence de VIH?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_3 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_9" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/immunite.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Le virus affaiblit le système immunitaire
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_9" type="radio" name="stp_3_select_option" value="Navasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_3 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_10" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/cancer-du-col-de-luterus.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       C'est le cancer du col de l'utérus
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_10" type="radio" name="stp_3_select_option" value="Sukhasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_3 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_11" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/testicule.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Inflammation des testicules 
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_11" type="radio" name="stp_3_select_option" value="Virasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_3 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_12" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/accouchement.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Transmission à l'enfant lors d'un accouchement
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_12" type="radio" name="stp_3_select_option" value="Padmasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Progress bar -->
+                        <div class="row justify-content-center">
+                           <div class="col-10">
+                              <div class="step_progress">
+                                 <span>3 sur 15 Questions</span>
+                                 <div class="step_progress_bar">
+                                    <div class="progress rounded-pill">
+                                       <div class="progress-bar" style="width:21%"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-4 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>04</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Comment le VIH se détecte ?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_4 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_13" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/examen.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Par un examen médical 
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_13" type="radio" name="stp_4_select_option" value="Adho Mukha Vrksasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_4 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_14" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/du-sang.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Par une prise de sang
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_14" type="radio" name="stp_4_select_option" value="Gomukhasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_4 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_15" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/echantillon-durine.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Par une analyse d'urine
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_15" type="radio" name="stp_4_select_option" value="Adho Mukha Svanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_4 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_16" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/prelevement-de-sang.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Par un prélèvement local
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_16" type="radio" name="stp_4_select_option" value="Sukhasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Progress bar -->
+                        <div class="row justify-content-center">
+                           <div class="col-10">
+                              <div class="step_progress">
+                                 <span>4 sur 15 Questions</span>
+                                 <div class="step_progress_bar">
+                                    <div class="progress rounded-pill">
+                                       <div class="progress-bar" style="width:28%"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-5 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>05</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Quels sont les symptômes du VIH ? </h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/vagin.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Écoulement jaune verdâtre par le vagin
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/douleur.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Douleurs vaginales, testiculaire, au bas ventre
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/uriner.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Brûlures lorsque l'on urine
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/homme-invisible.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Aucun symptôme visible
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>5 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:35%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-6 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>06</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Parmi les moyens de contraception suivants, lesquels vous semblent fiables ?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/contraceptive.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Pilule
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/contraceptive-methods.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Implant
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/periods.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Méthode du calcul de l’ovulation par appli
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/iud-implant.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       DIU (Dispositif Intra Utérin ou Stérilet)
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>6 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:42%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-7 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>07</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Parmi les items suivants lesquels sont des situations de violence conjugale</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/couple.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Vivre heureux ensemble
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/chat.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Lire en cachette les SMS de son/sa partenaire
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/sexe.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Accepter de sex pour faire plaisir à son/sa partenaire
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/wallet.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Demander de l’argent à son/sa partenaire
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>7 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:49%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-8 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>08</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">L'hygiène intime des filles?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/shampoo.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       En se nettoyant de l'avant vers l'arrière
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/vagin.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       En se nettoyant de l'intérieur du vagin
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/creme.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Utiliser un savon sans parfum pour l'extérieur
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/yeast-infection.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Eviter la propagation de matières fécales vers la vulve
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>8 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:56%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-9 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>09</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Avoir un sein plus gros que l'autre?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/erotic.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Le corps humain n'est pas symétrique
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/breast.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Il n'est pas normal d'avoir un sein plus gros que l'autre
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/surgery.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La taille et la forme des seins peuvent aussi varier avant les règles ou si on prend une contraception hormonale
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/period.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La taille et la forme des seins ne peuvent pas varier avant les règles ou si on prend une contraception hormonale
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>9 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:63%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-10 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>10</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">La puberté chez les personnes à vulve</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/sexual.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Le clitoris et les lèvres de la vulve se développent
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/period.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Des pertes blanches puis les premières règles
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/erotic.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Le changement de corps n'est pas normal
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/breast.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La taille et la forme des seins se développe
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           
+
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>10 sur  Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:70%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-11 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>11</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">C'est quoi le préservatif externe ??</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/condom.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Un moyen d'éviter une grossesse non prévue et la transmission d'infections sexuellement transmissibles
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/pregnancy.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Un moyen de grossesse et de la transmission d'infections sexuellement transmissibles
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/antibiotique.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Il favosire la transmission d'infections
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/sexe.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Un moyen d'éviter une grossesse à 100%
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>11 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:77%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-12 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>12</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">C'est quoi les règles ?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/menstrual-cycle.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Un phénomène naturel et cyclique de perte de sang et apparaît chaque mois à partir de la puberté
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/period.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Un phénomène annuel de perte de sang qui dure une semaine et apparaît à partir de 45 ans
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/pregnancy.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       C'est une forme de grossesse
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/vagin.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       L'utérus se prépare à accueillir les spermes
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>12 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:84%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-13 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>13</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">C'est quoi les pertes blanches ?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/infection.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                          Un phénomène anormale
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/period.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       C'est une production des règles
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/vaginal-ring.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       C'est un corps pour humidifier le vagin et préserver sa flore.
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/homme-invisible.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       C'est un dérèglement hormonal
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>13 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:92%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-14 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>14</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">Pénis et hygiène intime</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/chlamydia.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Recommandée annuellement avec un savon parfumé.                                    
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/vasectomy.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Eviter le nettoyage de périnée, les testicules et l'anus.
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/shampoo.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Recommandée quotidiennement avec un savon doux.
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/reproductive-system.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       Laver son pénis comme toute autre partie du corps
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>14 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:96%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Step-15 ----------------------------->
+                     <div class="multisteps_form_panel step">
+                        <div class="question_number ps-5 pt-3">
+                           <span>15</span>
+                        </div>
+                        <div class="question_title">
+                           <h1 class="text-center px-5 py-5 animate__animated animate__fadeInRight animate_25ms">La loi autorise un majeur et une mineure à avoir des rapports sexuels ?</h1>
+                        </div>
+                        <div class="row form_items">
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_50ms">
+                                 <label for="opt_17" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/sexual-harassment.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La loi puni les rapports sexuels entre une personne majeure et un mineur                    
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_17" type="radio" name="stp_5_select_option" value="Parivrtta Ardha Chandrasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_100ms">
+                                 <label for="opt_18" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/couple.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La loi autorise les rapports sexuels entre une personne majeure et un mineur
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_18" type="radio" name="stp_5_select_option" value="Parsvottanasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_150ms">
+                                 <label for="opt_19" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/forbidden.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La loi interdit les rapports sexuels entre une personne majeure et un mineur
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_19" type="radio" name="stp_5_select_option" value="Utthita Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form_items_content bg-white text-center position-relative step_5 animate__animated animate__fadeInRight animate_200ms">
+                                 <label for="opt_20" class="d-block">
+                                    <span class="form_items_icon">
+                                       <img src="assets/images/item-img/sexe.png" alt="image-not-found">
+                                    </span>
+                                    <span class="form_items_text pt-2 d-block">
+                                       La relation sexuelle n'est constitue pas une atteinte sexuelle sur mineur
+                                    </span>
+                                    <span class="service-check-option">
+                                       <span><input id="opt_20" type="radio" name="stp_5_select_option" value="Parivrtta Trikonasana"></span>
+                                    </span>
+                                 </label>
+                              </div>
+                           </div>
+                           <!-- Progress bar -->
+                           <div class="row justify-content-center">
+                              <div class="col-10">
+                                 <div class="step_progress">
+                                    <span>15 sur 15 Questions</span>
+                                    <div class="step_progress_bar">
+                                       <div class="progress rounded-pill">
+                                          <div class="progress-bar" style="width:100%"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!------------------------- Form button ----------------------------->
+                     <div class="row pt-5">
+                        <div class="col-sm-6 text-center">
+                           <button type="button" class="f_btn prev_btn text-uppercase rounded-pill text-white ms-3" id="prevBtn" onclick="nextPrev(-1)"><span><i class="fas fa-arrow-left"></i></span> Question Précédente</button>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                           <button type="button" class="f_btn next_btn text-uppercase rounded-pill text-white ms-5" id="nextBtn" onclick="nextPrev(1)"> Question Suivante</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6 d-none d-md-block">
+                  <div>
+                     <div class="count_box d-flex flex-row align-items-center pe-2 mt-2 float-end rounded-pill">
+                        <div class="count_clock ps-2">
+                           <img  src="./assets/images/clock/clock.png" alt="image-not-found">
+                        </div>
+                        <div class="count_title px-1">
+                           <h4 class="text-white">Quiz</h4>
+                           <span class="text-white">Temps</span>
+                        </div>
+                        <div class="count_number p-3 d-flex justify-content-around align-items-center position-relative overflow-hidden rounded-pill countdown_timer" data-countdown="2022/10/24">
+                        </div>
+                     </div>
+                     <div class="right_img">
+                        <img src="./assets/images/background/1.png" alt="image-not-found">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- jQuery-js include -->
+      <script src="./assets/js/jquery-3.6.0.min.js"></script>
+      <!-- Bootstrap-js include -->
+      <script src="./assets/js/bootstrap.min.js"></script>
+      <!-- jQuery-validate-js include -->
+      <script src="./assets/js/jquery.validate.min.js"></script>
+      <!-- jQuery-Countdown-js include -->
+      <script src="./assets/js/countdown.js"></script>
+      <!-- Custom-js include -->
+      <script src="./assets/js/script.js"></script>
+   </body>
+   </html>
